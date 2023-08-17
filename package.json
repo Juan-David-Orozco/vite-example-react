@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://juan-david-orozco.github.io/vite-example-react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {

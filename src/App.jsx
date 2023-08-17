@@ -5,11 +5,10 @@ import './App.css'
 import { HelloWorld } from './components/HelloWorld'
 
 function App() {
-  const [count, setCount] = useState(10)
+  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <HelloWorld/>
       <HelloWorld/>
       <div>
         <a href="https://vitejs.dev" target="_blank">

@@ -2,6 +2,6 @@ import React from 'react'
 
 export function HelloWorld() {
   return (
-    <div>HelloWorld</div>
+    <h2>HelloWorld</h2>
   )
 }
